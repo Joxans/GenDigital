@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Enable testing
 enable_testing()
 
-add_library(LRUCache LRUCache.cpp)
+add_library(LRUCache src/LRUCache.cpp)
 add_executable(GenDigital main.cpp)
 
 target_include_directories(GenDigital PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

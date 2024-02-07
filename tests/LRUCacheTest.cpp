@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../LRUCache.h"
+#include "../src/LRUCache.h"
 
 class LRUCacheTest : public ::testing::Test {
 protected:
